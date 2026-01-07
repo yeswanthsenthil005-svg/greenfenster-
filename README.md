@@ -4,63 +4,58 @@ A modern interior design and UPVC solutions web application built with React and
 
 ![Green Fenster Industry](https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800&h=400&fit=crop)
 
-About Green Fenster Industry
+##  About
 
-Green Fenster Industry is a premium interior design company delivering end-to-end interior solutions with a strong focus on aesthetics, functionality, and craftsmanship. The company specializes in modern residential and commercial interiors, offering services such as 3D visualization, modular kitchens, custom furniture, false ceilings, color consultation, bespoke wardrobes, and high-quality UPVC and wooden fixtures..
+Green Fenster Industry is a premium interior design company offering comprehensive design services including 3D visualization, modular kitchens, furniture selection, false ceilings, color consultation, custom wardrobes, and UPVC/wood fixtures.
 
-.Features
+##  Features
 
-Home Page
-Engaging hero section
-Featured projects
-Client testimonials
+- **Home Page** - Hero section, featured projects, testimonials
+- **Services** - 7 professional interior design services
+- **Portfolio** - Project gallery with category filters (kitchen, bedroom, living room, hall, bathroom, office)
+- **Color Selection** - 32 curated color schemes across 6 categories
+- **Contact** - WhatsApp integration, Google Maps, contact details
+- **Responsive Design** - Mobile-friendly interface
+- **Loading Animations** - Smooth page transitions
 
-.Services
-Seven professional interior design services
+##  Getting Started
 
-.Portfolio
+### Prerequisites
 
-Project gallery with category filters:
-Kitchen
-Bedroom
-Living Room
-Hall
-Bathroom
-Office
+- Node.js (v16 or higher)
+- npm or yarn
 
-.Color Selection
-32 curated color palettes
-Organized into 6 design categories
-Contact
-WhatsApp integration for quick communication
-Google Maps integration
-Contact details display
+### Installation
 
-.Responsive Design
-Optimized for mobile, tablet, and desktop devices
-.Animations
-Smooth page transitions and loading animations
-
-.Getting Started
-Prerequisites
-Make sure you have the following installed:
-.Node.js (v16 or higher)
-.npm or yarn
-
-Installation
+```bash
 # Clone the repository
 git clone https://github.com/yeswanthsenthil005-svg/greenfenster-.git
-# Navigate to the project directory
+
+# Navigate to project directory
 cd greenfenster-
+
 # Install dependencies
 npm install
 
-Project Structure
+# Start development server
+npm run dev
+
+Access the App
+Local: http://localhost:5173/
+Network: Run npm run dev -- --host to access on mobile devices
+ Tech Stack
+React 18 - UI Framework
+Vite - Build Tool
+Tailwind CSS - Styling
+React Router - Navigation
+Lucide React - Icons
+
+ Project Structure
 ├── src/
-│   ├── App.jsx           # Main application component
-│   ├── main.jsx          # Application entry point
-│   ├── components/       # Reusable UI components
-│   ├── entities/         # Mock data and static content
+│   ├── App.jsx           # Main app component
+│   ├── main.jsx          # Entry point
+│   ├── components/       # Reusable components
+│   ├── entities/         # Mock data
 │   └── utils/            # Utility functions
 ├── Pages/                # Page components
 │   ├── Home.js
@@ -70,9 +65,7 @@ Project Structure
 │   └── colorSelection.js
 └── package.json
 
-Contact
-
-Phone: +91 63797 43525
+ Contact
+Phone: +91 6379743525
 Email: contact@greenfenster.com
 Location: Namakkal, Tamil Nadu, India
-
